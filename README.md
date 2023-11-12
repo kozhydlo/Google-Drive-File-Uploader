@@ -13,7 +13,7 @@ pip install PyDrive
 
 ```
 2.Запустіть скрипт, використовуючи Python. Вам слід викликати функцію main(), яка зараз викликає функцію upload_dir для завантаження всіх файлів з вказаного каталогу на Google Drive.
-```
+``` python
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import os
